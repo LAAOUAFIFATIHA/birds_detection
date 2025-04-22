@@ -4,7 +4,7 @@ import time
 
 def conARD():
     # Open the serial port and set the baudrate
-    arduino = serial.Serial(port="COM7", baudrate=9600, timeout=1)
+    arduino = serial.Serial(port="COM5", baudrate=9600, timeout=1)
 
     # # Wait for Arduino to initialize
     time.sleep(3)

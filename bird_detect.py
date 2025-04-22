@@ -47,12 +47,15 @@ while True:
     if not ret:
         print("Camera not linked ... ")
         break
+
     
     # Resize the frame
     frame = cv2.resize(frame, (frame_width, frame_height))
+    print("befor frame")
 
     # Do prediction on image, with confidence greater than 80%
     detect_params = model.predict(source=[frame], conf=0.8, save=False)
+    print("after frame")
 
     # Process detections
     if len(detect_params[0]) != 0:
@@ -67,6 +70,7 @@ while True:
             # Name of object detected (e.g. 'bird')
             class_name = model.names[int(c)]
 
+            print("detect_params")
             # If the class name contains the word 'bird'
             if 'bird' in class_name.lower():
                 
@@ -83,7 +87,7 @@ while True:
                     frame_count += 1
                 
                 print("Bird detected")
-                # conArduino.conARD()  # Play sound or activate the buzzer
+                conArduino.conARD()      # Play sound or activate the buzzer
 
                 # Play a random sound
                 random_sound = random.choice(sounds)
@@ -118,6 +122,8 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
+
 
 
 
