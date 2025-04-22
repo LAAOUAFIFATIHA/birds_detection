@@ -39,4 +39,21 @@ This project uses a Raspberry Pi to detect birds in real-time using a camera. Th
    sudo apt install python3-opencv python3-pip
    pip3 install tensorflow pyserial
    ```
-2. **
+2. **Create a new environment in Raspberry pi for libraries**:
+   ```
+   sudo apt install python3 python3-venv python3-pip
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install ultralytics
+   pip install pygame 
+   ```
+4. **load the project in Raspberry pi**
+   ```
+  mkdir bird_detection
+  cd bird_detection
+  
+  ```
+
+6. **Test**
+
+   
