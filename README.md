@@ -55,7 +55,7 @@ This project uses a Raspberry Pi to detect birds in real-time using a camera. Th
    ```
 
 5.  **Test in raspberry pi** 
-   ```
+    ```
     python bird_detect.py
-   ```
+    ```
    
