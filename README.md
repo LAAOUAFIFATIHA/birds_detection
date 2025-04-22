@@ -5,6 +5,8 @@ this project design to detect birds and scare tem away form famrers crops
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
+<img src="images/birds.png">
+
 ## Description
 
 This project uses a Raspberry Pi to detect birds in real-time using a camera. The Raspberry Pi processes the camera feed with a pre-trained machine learning model to detect birds, and it plays a sound when a bird is detected in order to protect farms.
