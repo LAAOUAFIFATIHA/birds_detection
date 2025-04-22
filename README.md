@@ -29,7 +29,7 @@ This project uses a Raspberry Pi to detect birds in real-time using a camera. Th
 - `pyserial` library for Raspberry Pi-Arduino communication
 - ultralytics for YOLO 
 
-## Installation
+## How To Use This Projct
 
 ### Raspberry Pi Setup
 
