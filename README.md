@@ -49,11 +49,12 @@ This project uses a Raspberry Pi to detect birds in real-time using a camera. Th
    ```
 4. **load the project in Raspberry pi**
    ```
-  mkdir bird_detection
-  cd bird_detection
-  
+   mkdir bird_detection
+   cd bird_detection
+   git clone https://github.com/LAAOUAFIFATIHA/birds_detection.git
   ```
-
 6. **Test**
+  ```
+python bird_detect.py
 
    
