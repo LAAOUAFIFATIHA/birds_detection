@@ -48,14 +48,14 @@ This project uses a Raspberry Pi to detect birds in real-time using a camera. Th
    pip install pygame 
    ```
 4. **load the project in Raspberry pi**
- ```
+  ```
    mkdir bird_detection
    cd bird_detection
    git clone https://github.com/LAAOUAFIFATIHA/birds_detection.git
   ```
 
 5.  **Test in raspberry pi** 
-   ```
-   python bird_detect.py
+    ```
+    python bird_detect.py
    ```
    
