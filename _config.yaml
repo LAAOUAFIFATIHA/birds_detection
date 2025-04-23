@@ -1,0 +1,25 @@
+# _config.yml
+
+# The source directory for your Jekyll website
+source: docs
+
+# The destination directory for the compiled site
+destination: docs/_site
+
+# Theme for the website
+theme: jekyll-theme-primer
+
+# Your site's title
+title: "Your Site Title"
+
+# URL for your site (optional)
+url: "https://username.github.io/repository-name"
+
+# Include this for better SEO, can be customized
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Set this if you're using SCSS or CSS files
+sass:
+  style: compressed
