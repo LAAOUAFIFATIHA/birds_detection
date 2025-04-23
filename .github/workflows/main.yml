@@ -1,0 +1,17 @@
+name: Test Pilot Workflow
+
+on:
+  push:
+    branches:
+      - main  # or 'master' depending on your repo
+
+jobs:
+  test-pilot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions! 🧪"
